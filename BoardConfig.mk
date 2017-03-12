@@ -53,4 +53,5 @@ TARGET_KERNEL_CONFIG := lineageos_a5xelte_defconfig
 TARGET_LD_SHIM_LIBS += \
     /system/lib/libcamera_client.so|/vendor/lib/libcamera_client_shim.so \
     /system/lib/libstagefright.so|/vendor/lib/libstagefright_shim.so \
-    /system/lib/libexynoscamera.so|/vendor/lib/libexynoscamera_shim.so
+    /system/lib/libexynoscamera.so|/vendor/lib/libexynoscamera_shim.so \
+    /system/lib/libbauthserver.so|/system/lib/libbauthtzcommon_shim.so
