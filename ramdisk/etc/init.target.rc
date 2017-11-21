@@ -14,6 +14,8 @@ on fs
     chown system radio /sys/class/sec/sec_touchkey/sar_enable
     chown system radio /sys/class/sec/sec_touchkey/sw_reset
     chown system radio /sys/class/sec/sec_touchkey/touchkey_earjack
+    chmod 0660 /dev/i2c-0
+    chown audio audio /dev/i2c-0
 
     # Accelerometer_sensor
     chown system radio /sys/class/sensors/accelerometer_sensor/mcu_rev
