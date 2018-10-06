@@ -55,3 +55,7 @@ TARGET_LD_SHIM_LIBS += \
     /system/lib/libstagefright.so|/vendor/lib/libstagefright_shim.so \
     /system/lib/libexynoscamera.so|/vendor/lib/libexynoscamera_shim.so \
     /system/lib/libbauthserver.so|/system/lib/libbauthtzcommon_shim.so
+
+# Legacy BLOB Support
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /system/vendor/bin/hw/rild=27
