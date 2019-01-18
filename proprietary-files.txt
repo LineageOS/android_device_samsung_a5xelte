@@ -81,3 +81,6 @@ lib/libtfa98xx.so
 
 # cbd
 bin/cbd|1b3ec965475829467a09e86a7103bc4086e66194
+
+# sswap
+bin/sswap|1670863f292325de353373caa9b8d34e47276eee
