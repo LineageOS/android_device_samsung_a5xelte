@@ -140,13 +140,13 @@ lib/libegis_fp_normal_sensor_test.so
 lib/libsynaFpSensorTestNwd.so
 
 # Wifi
-etc/wifi/bcmdhd_apsta.bin
-etc/wifi/bcmdhd_mfg.bin
-etc/wifi/bcmdhd_sta.bin
-etc/wifi/nvram_mfg.txt
-etc/wifi/nvram_net.txt
-etc/wifi/nvram_mfg.txt_FD
-etc/wifi/nvram_net.txt_FD
+etc/wifi/bcmdhd_apsta.bin:vendor/etc/wifi/bcmdhd_apsta.bin
+etc/wifi/bcmdhd_mfg.bin:vendor/etc/wifi/bcmdhd_mfg.bin
+etc/wifi/bcmdhd_sta.bin:vendor/etc/wifi/bcmdhd_sta.bin
+etc/wifi/nvram_mfg.txt:vendor/etc/wifi/nvram_mfg.txt
+etc/wifi/nvram_net.txt:vendor/etc/wifi/nvram_net.txt
+etc/wifi/nvram_mfg.txt_FD:vendor/etc/wifi/nvram_mfg.txt_FD
+etc/wifi/nvram_net.txt_FD:vendor/etc/wifi/nvram_net.txt_FD
 vendor/firmware/ram_patch.fw
 
 # NFC
