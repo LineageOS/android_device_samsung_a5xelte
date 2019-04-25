@@ -18,6 +18,13 @@ LOCAL_PATH := device/samsung/a5xelte
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-service
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
