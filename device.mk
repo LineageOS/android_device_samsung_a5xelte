@@ -66,6 +66,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/samsung/universal7580-common/configs/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc
 
+# Properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # Inherit from universal7580-common
 $(call inherit-product, device/samsung/universal7580-common/device-common.mk)
 
