@@ -52,6 +52,7 @@ app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 lib/hw/sensors.universal7580.so
 lib/libsensorservice.so
 vendor/lib/libyasalgo.so
+vendor/etc/yas_set.cfg
 
 # Fingerprint
 lib/libbauthserver.so
