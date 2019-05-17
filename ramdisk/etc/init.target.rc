@@ -4,6 +4,13 @@ on boot
     write /proc/sys/net/core/rmem_max 2097152
     write /proc/sys/net/core/wmem_max 2097152
 
+    # Set min_free_kbytes to keep larger VM chuncks lying around
+    write /proc/sys/vm/min_free_kbytes 32768
+
+    # Tune virtual memory
+    write /proc/sys/vm/swappiness 160
+    write /proc/sys/vm/vfs_cache_pressure 50
+
 on fs
     # Permissions for LCD
     chown system system /sys/class/lcd/panel/ldu_correction
