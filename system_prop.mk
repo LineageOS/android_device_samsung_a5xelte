@@ -27,6 +27,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
 
+# NFC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.nfc.fw_dl_on_boot=false
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnCdmaDevice=0 \

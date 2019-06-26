@@ -91,9 +91,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     android.hardware.nfc@1.0-impl
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.nfc.sec_hal=true
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
