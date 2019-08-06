@@ -25,4 +25,7 @@
         2 = left side
         3 = right side -->
     <integer name="config_fingerprintSensorLocation">1</integer>
+
+    <!-- Volume Rocker Wake -->
+    <bool name="config_show_volumeRockerWake">true</bool>
 </resources>
