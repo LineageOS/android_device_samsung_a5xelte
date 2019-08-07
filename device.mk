@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    camera.universal7580 \
     Snap
 
 # GPS

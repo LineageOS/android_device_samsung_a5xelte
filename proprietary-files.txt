@@ -2,7 +2,7 @@
 vendor/firmware/bcm43454_V0161.0287.hcd
 
 # Camera
-lib/hw/camera.universal7580.so
+lib/hw/camera.universal7580.so:lib/hw/camera.vendor.universal7580.so
 lib/libexynoscamera.so
 vendor/firmware/setfile_3l2.bin
 vendor/firmware/setfile_5e3.bin
