@@ -82,13 +82,8 @@ void set_sim_info()
 
 void vendor_load_properties()
 {
-    std::string platform;
     std::string bootloader = GetProperty("ro.bootloader", "");
     std::string device;
-
-    platform = GetProperty("ro.board.platform", "");
-    if (platform != ANDROID_TARGET)
-        return;
 
     if (bootloader.find("A510F") != std::string::npos) {
 
