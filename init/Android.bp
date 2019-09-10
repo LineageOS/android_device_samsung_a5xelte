@@ -1,0 +1,12 @@
+cc_library_static {
+    name: "libinit_a5xelte",
+    recovery_available: true,
+    srcs: [
+        "init_a5xelte.cpp",
+    ],
+    whole_static_libs: ["libbase"],
+    include_dirs: [
+        "system/core/base/include",
+        "system/core/init",
+    ],
+}
