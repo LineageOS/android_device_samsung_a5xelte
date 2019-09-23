@@ -21,11 +21,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
-# Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common havoc phone.
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_a5xelte
+PRODUCT_NAME := havoc_a5xelte
 PRODUCT_DEVICE := a5xelte
 PRODUCT_MODEL := SM-A510F
 PRODUCT_BRAND := samsung
