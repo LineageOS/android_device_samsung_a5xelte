@@ -28,6 +28,6 @@ $(call inherit-product, vendor/havoc/config/common.mk)
 PRODUCT_NAME := havoc_a5xelte
 PRODUCT_DEVICE := a5xelte
 PRODUCT_MODEL := SM-A510F
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
