@@ -17,4 +17,4 @@
 LOCAL_PATH := device/samsung/a5xelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_a5xelte.mk
+    $(LOCAL_PATH)/havoc_a5xelte.mk
