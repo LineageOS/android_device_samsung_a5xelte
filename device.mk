@@ -137,9 +137,9 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Vendor security patch level (vendor blobs from A510FXXS8CSC1)
+# Vendor security patch level (vendor blobs from A510FXXS8CSF3)
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2019-04-01
+    ro.lineage.build.vendor_security_patch=2019-07-01
 
 # Wi-fi
 PRODUCT_COPY_FILES += \
