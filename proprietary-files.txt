@@ -48,6 +48,10 @@ app/mcRegistry/ffffffffd00000000000000000000017.tlbin
 app/mcRegistry/fffffffff0000000000000000000001b.tlbin
 app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 
+# RIL
+lib/libsec-ril.so
+lib/libsec-ril-dsds.so
+
 # Sensors
 lib/hw/sensors.universal7580.so
 lib/libsensorservice.so
