@@ -212,12 +212,6 @@
      for different hardware and product builds. -->
     <string name="config_radio_access_family">GSM | WCDMA | LTE</string>
 
-     <!-- Values for GPS configuration -->
-     <string-array translatable="false" name="config_gpsParameters">
-        <item>XTRA_SERVER_1=https://glltos1.glpals.com/4day/v3/latest/lto2.dat</item>
-        <item>XTRA_SERVER_2=https://glltos2.glpals.com/4day/v3/latest/lto2.dat</item>
-     </string-array>
-
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
     <bool translatable="false" name="config_wifi_dual_band_support">false</bool>
 
