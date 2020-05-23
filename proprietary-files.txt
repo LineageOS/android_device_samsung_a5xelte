@@ -1,3 +1,5 @@
+# all unpinned blobs come from SM-A510F stock (A510FXXS8CSF3)
+
 # Bluetooth
 vendor/firmware/bcm43454_V0161.0287.hcd
 
@@ -83,8 +85,8 @@ vendor/firmware/sec_s3fwrn5s_firmware.bin
 etc/Tfa9897.cnt
 lib/libtfa98xx.so
 
-# cbd
+# cbd, from boot.img and pinned to stop removal when extracting from system image
 bin/cbd:vendor/bin/cbd|1b3ec965475829467a09e86a7103bc4086e66194
 
-# sswap
+# sswap, from boot.img and pinned to stop removal when extracting from system image
 bin/sswap:vendor/bin/sswap|1670863f292325de353373caa9b8d34e47276eee
