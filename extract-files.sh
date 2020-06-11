@@ -15,6 +15,9 @@
 # limitations under the License.
 #
 
+# First extract the universal7580 common files
+../universal7580-common/extract-files.sh "$@"
+
 set -e
 
 VENDOR=samsung
