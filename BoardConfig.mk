@@ -54,6 +54,9 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_a5xelte_defconfig
 
+# Manifest
+DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+
 # Shim
 TARGET_LD_SHIM_LIBS += \
     /system/lib/libcamera_client.so|/vendor/lib/libcamera_client_shim.so \
