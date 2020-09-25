@@ -5,11 +5,19 @@
         <name>android.hardware.audio</name>
         <transport arch="32">passthrough</transport>
         <version>2.0</version>
+        <interface>
+            <name>IDevicesFactory</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl">
         <name>android.hardware.audio.effect</name>
         <transport arch="32">passthrough</transport>
         <version>2.0</version>
+        <interface>
+            <name>IEffectsFactory</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
@@ -82,6 +90,10 @@
         <name>android.hardware.graphics.composer</name>
         <transport arch="32">passthrough</transport>
         <version>2.1</version>
+        <interface>
+            <name>IComposer</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl">
         <name>android.hardware.graphics.mapper</name>
@@ -99,6 +111,7 @@
         <interface>
             <name>IHealth</name>
             <instance>backup</instance>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
