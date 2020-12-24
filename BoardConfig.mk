@@ -57,6 +57,9 @@ TARGET_KERNEL_CONFIG := lineageos_a5xelte_defconfig
 # Manifest
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
 
+# SELinux
+BOARD_SEPOLICY_DIRS += device/samsung/a5xelte/sepolicy
+
 # Shim
 TARGET_LD_SHIM_LIBS += \
     /system/lib/libcamera_client.so|/vendor/lib/libcamera_client_shim.so \

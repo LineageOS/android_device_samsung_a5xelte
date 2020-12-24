@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     libbauthtzcommon_shim \
     android.hardware.biometrics.fingerprint@2.1-service.samsung
 
+# FastCharge
+PRODUCT_PACKAGES += \
+    vendor.lineage.fastcharge@1.0-service.samsung
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.universal7580 \
