@@ -902,7 +902,7 @@
 	<!-- camcorder input -->
 	<path name="camcorder-mic-oe">
 		<path name="route-ap-rx" />
-		<path name="dev-main-mic" />
+		<path name="dev-dual-main_right-2nd_left-mic" />
 	</path>
 
 	<path name="camcorder-headset-mic">
@@ -2311,8 +2311,8 @@
 	<path name="gain-media-mic">
 		<ctl name="MIC1 Volume" value="11" />
 		<ctl name="MIC1 Boost Volume" value="2" />
-		<ctl name="ADC Left Gain" value="150" />
-		<ctl name="ADC Right Gain" value="150" />
+		<ctl name="ADC Left Gain" value="127" />
+		<ctl name="ADC Right Gain" value="127" />
 	</path>
 
 	<path name="gain-media-headset-mic">
@@ -2335,10 +2335,11 @@
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic-oe">
-		<ctl name="MIC1 Volume" value="24" />
+		<ctl name="MIC1 Volume" value="10" />
 		<ctl name="MIC1 Boost Volume" value="1" />
-		<ctl name="ADC Left Gain" value="137" />
-		<ctl name="ADC Right Gain" value="137" />
+		<ctl name="Line-in Volume" value="4" />
+		<ctl name="ADC Left Gain" value="138" />
+		<ctl name="ADC Right Gain" value="140" />
 	</path>
 
 	<path name="gain-camcorder-headset-mic">
