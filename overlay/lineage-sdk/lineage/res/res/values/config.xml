@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015 The CyanogenMod Project
+                   2017-2021 The LineageOS Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -12,29 +16,19 @@
      limitations under the License.
 -->
 <resources>
-
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">400</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 
     <!-- Color temperature settings for LiveDisplay. These were obtained by
          measuring the display at various color balance levels. -->
     <integer name="config_minColorTemperature">1900</integer>
     <integer name="config_maxColorTemperature">25000</integer>
 
-    <!-- Corresponds to color balance level of zero, this is the native
-         display temperature -->
-    <integer name="config_dayColorTemperature">6500</integer>
-    <integer name="config_nightColorTemperature">4800</integer>
-
     <!-- Ambient lux at which to enable outdoor mode when LiveDisplay is enabled -->
     <integer name="config_outdoorAmbientLux">10000</integer>
     <integer name="config_outdoorAmbientLuxHysteresis">1000</integer>
-
-    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
-    <bool name="config_enableBurnInProtection">true</bool>
 
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -49,9 +43,6 @@
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">0</integer>
-
-    <!-- Disable LiveDisplay by default -->
-    <integer name="config_defaultLiveDislayMode">0</integer>
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -80,4 +71,11 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">65</integer>
+
+    <!-- Whether to post reset runnable for all clients. Needed for some older
+        vendor fingerprint HAL implementations. -->
+    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 </resources>
